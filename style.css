@@ -1,0 +1,109 @@
+nav {
+    background-color: #481E14;
+    padding: auto;
+    
+    
+}
+nav li {
+    color: rgb(255, 205, 205);
+    display: inline;
+    font-size: 16pt;
+    padding: 14px 16px;
+  
+    
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+    padding: 14px 16px;
+    margin: 0px;
+    
+    
+}
+
+body {
+    text-align: center;
+    background-color: #0C0C0C;
+    
+    
+}
+
+*{
+    color: #F2613F;
+}
+
+hr {
+ border: none;
+  border-top: 3px dotted 
+  #373737;
+  color: #5d2424;
+  height: 1px;
+  margin: 20px 0;
+  opacity: 90%;
+}
+
+#I-am {
+    margin-bottom: 0; 
+}
+
+#Arthem {
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+}
+
+.About {
+    text-align: left; 
+}
+
+.Work {
+    background-color: #481E14;
+    border: 10px ;
+    border-radius: 5px;
+    margin: 10pt; 
+}
+
+
+.button-23 {
+    background-color: #FFFFFF;
+    border: 1px solid #222222;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #222222;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    padding: 13px 23px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    touch-action: manipulation;
+    transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+    user-select: none;
+    -webkit-user-select: none;
+    width: auto;
+  }
+  
+  .button-23:focus-visible {
+    box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+    transition: box-shadow .2s;
+  }
+  
+  .button-23:active {
+    background-color: #F7F7F7;
+    border-color: #000000;
+    transform: scale(.96);
+  }
+  
+  .button-23:disabled {
+    border-color: #DDDDDD;
+    color: #DDDDDD;
+    cursor: not-allowed;
+    opacity: 1;
+  }
